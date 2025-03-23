@@ -1,4 +1,4 @@
-# Desafio CI/CD - Fake Shop
+# Desafio CI/CD - Fake Shop aula 3
 
 Este repositório contém a implementação de uma pipeline CI/CD utilizando GitHub Actions para automatizar o processo de build e deploy da aplicação Fake Shop.
 

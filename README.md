@@ -27,7 +27,7 @@ Antes de executar a pipeline, certifique-se de configurar os seguintes segredos 
 ```
 .
 ├── .github/workflows/
-│   ├── ci-cd.yml  # Pipeline do GitHub Actions
+│   ├── main.yml  # Pipeline do GitHub Actions
 ├── src/
 │   ├── Dockerfile  # Definição da imagem Docker
 ├── k8s/
@@ -41,10 +41,7 @@ Antes de executar a pipeline, certifique-se de configurar os seguintes segredos 
 No repositório forkado, acesse **Settings > Secrets and variables > Actions** e adicione os segredos listados acima.
 
 ### 2. Commit na Branch `main`
-A pipeline é acionada automaticamente ao realizar um push na branch `main`. Caso queira iniciar manualmente, utilize o `workflow_dispatch` pelo GitHub Actions.
+A pipeline é acionada automaticamente ao realizar um push na branch `main`. 
 
 ### 3. Monitorar a Execução
 Acompanhe o progresso da pipeline acessando a aba **Actions** no GitHub.
-
-## Contato
-Caso encontre algum problema ou tenha dúvidas, abra uma issue no repositório.

@@ -19,7 +19,7 @@ A pipeline realiza as seguintes etapas:
 
 Antes de executar a pipeline, certifique-se de configurar os seguintes segredos no repositório do GitHub:
 - `DOCKERHUB_USERNAME`: Nome de usuário do Docker Hub.
-- `DOCKERHUB_TOKEN`: Token de acesso ao Docker Hub.
+- `DOCKERHUB_TOKEN`: Senha de acesso ao Docker Hub.
 - `K8S_KUBECONFIG`: Configuração do kubeconfig para acessar o cluster Kubernetes.
 
 ## Estrutura do Repositório

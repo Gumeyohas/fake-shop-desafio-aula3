@@ -25,7 +25,14 @@ Antes de executar a pipeline, certifique-se de configurar os seguintes segredos 
 ## Estrutura do Repositório
 
 ```
-. ├── .github/workflows/ │ ├── ci-cd.yml # Pipeline do GitHub Actions ├── src/ │ ├── Dockerfile # Definição da imagem Docker ├── k8s/ │ ├── deployment.yaml # Manifesto para o Kubernetes ├── README.md # Instruções de execução
+.
+├── .github/workflows/
+│   ├── ci-cd.yml  # Pipeline do GitHub Actions
+├── src/
+│   ├── Dockerfile  # Definição da imagem Docker
+├── k8s/
+│   ├── deployment.yaml  # Manifesto para o Kubernetes
+├── README.md  # Instruções de execução
 ```
 
 ## Como Executar
